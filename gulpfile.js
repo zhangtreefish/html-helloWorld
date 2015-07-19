@@ -22,4 +22,8 @@ gulp.task('page', function() {
         .pipe(gulp.dest(dest));
         });
 
+//add gulp.watch. add livereload and browsersyn to allow reload
+//add gulp-plumber to keep watching regardless of syntax error
+//anything manually done, gulp has an automation; e.g. gulp-jasmine.
+
 gulp.task('default',['styles','page']);//all worked!!!Yay!
